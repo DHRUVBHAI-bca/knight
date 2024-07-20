@@ -1,0 +1,424 @@
+body
+{
+    background-color: #f9f9f9;
+}
+.tag
+{
+    background-color: rgba(58, 58, 58, 0.5);
+    width: 100%;
+}
+.tag li
+{
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.tag li a
+{
+    text-decoration: none;
+    color: rgb(245, 237, 237);
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: larger;
+}
+.c-name
+{
+    margin-top: 17px;
+    margin-bottom: 10px;
+    font-size:xx-large;
+    padding-left: 80px;
+    font-weight: bold;
+    color: rgb(245, 237, 237);
+}
+#img
+{
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('hero-bg.jpg') no-repeat 0 0;
+background-size: cover;
+height: 590px;
+
+
+}
+.img-text
+{
+    text-align: center;
+    color: rgb(245, 237, 237);
+    background-color: rgba(70, 69, 69, 0.5);
+    border-radius: 10px;
+    list-style: none;
+    
+}
+.about
+{
+    background-color: #f9f9f9;
+
+}
+.clint-a
+{
+    color: red;
+    border-radius: 10px;
+    font-weight: lighter;
+    margin-right: 400px;
+    background-color: #f3dcdcd0;
+}
+.logo
+{
+    background-color: #f3dcdcd0;
+    border-radius: 100px;
+    color: red;
+    margin-left: 20px;
+}
+.logo:hover
+{
+    background-color:red;
+    border-radius: 100px;
+    color: white;
+    transition-duration:1s;   
+}
+
+#project
+{
+ background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('stats-bg.jpg') no-repeat 0 0;
+ background-size: cover;
+padding: 30px;
+ font-weight: bolder;
+ color: #f9f9f9;
+ font-size: large;
+ 
+}
+#project h1
+{
+    font-weight: bold;
+}
+.section-head::after
+{
+    background-color: red;
+    content: "";
+    display: block;
+    width: 130px;
+    height: 6px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+.card-s
+{
+    border: 0px;
+    
+}
+.card-s h3:hover
+{
+    color: red;
+    transition-duration: 1s;
+}
+.logo-s
+{
+    color: red;
+}
+.logo-s:hover
+{
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+.card-p
+{
+    color: red;
+}
+.card-p:hover
+{
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    transition-duration: 1s;
+    padding: 20px;
+
+}
+.prize h4
+{
+color: rgb(237, 105, 105);    
+}
+.p-ul li::marker
+{
+list-style:upper-roman;
+color: red;
+}
+.card-t
+{
+    border: 0px;
+    background-color: #f9f9f9;
+
+}
+
+.card-t:hover
+{
+   background-color: rgb(244, 133, 133);
+    color:white;
+    transition-duration: 1s;
+    border-radius: 40px;
+}
+.card-t img
+{
+    border-radius:4100px;
+    height: 50%;
+    width: 50%;
+    margin-left:80px ;
+}
+.card-t img:hover
+{
+    background-color: red;
+    transition-duration: 1s;
+
+}
+
+#call
+{
+ background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('stats-bg.jpg') no-repeat 0 0;
+ background-size: cover;
+padding: 40px;
+ font-weight: bolder;
+ color: #f9f9f9;
+ font-size: large;
+ 
+}
+#call p
+{
+    font-weight: lighter;
+    font-size: medium;
+    padding: 10px;
+}
+#recent h5
+{
+    font-size: medium;
+    color: #857f7f;
+}
+
+#recent h3
+{
+    font-size: large;
+}
+.recent-img
+{
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    background-color: white;
+    padding: 10px;
+    
+  
+}
+#recent p
+{
+    font-size: medium;
+    color: #414040;
+   
+}
+.cont
+{
+    color: red;
+}
+.cont:hover
+{
+    color: rgb(250, 161, 161);
+    transition-duration: 1s;
+}
+.cont-card
+{
+    border: 0px;
+    border-radius: 0px;;
+}
+.form-c
+{
+    background-color: white;
+    border-radius: 0px;
+}
+.c-name-f
+{
+font-weight: bolder;
+font-size: xx-large;
+}
+#footer
+{
+    background-color: white;
+}
+
+.footer-link-h
+{
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+}
+.f-ul
+{
+    margin-top: 10px;
+}
+.f-ul li
+{
+    list-style: none;
+    color: rgb(154, 152, 152);
+    margin: 5px;
+    text-align:center;
+    font-size: small;
+}
+.copy h5
+{
+    font-size: small;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+
+.login-box {
+   background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.login-box h2 {
+    margin-bottom: 13px;
+}
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid red;
+    border-radius: 100px;
+}
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(237, 105, 105);  
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.login-box button:hover {
+  
+    background:rgb(234, 68, 68);
+}
+.body-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+.login
+{
+    color:rgb(59, 58, 58);
+}
+.form:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: red;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(230, 143, 143, 0.25);
+  }
+
+.login-img
+{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('cta2-bg.jpg') no-repeat 0 0;
+background-size: cover;
+height: 580px;
+}
+.logo-s1
+{
+    color: red;
+    padding-right: 50px;
+}
+.img-text2
+{
+    text-align: center;
+    color: rgb(245, 237, 237);
+
+    border-radius: 10px;
+    list-style: none;
+}
+.sign-t
+{
+    text-align: right;
+    font-size: small;
+    margin-right:70px ;
+}
+.sign-b1
+{
+color: white;
+background-color: rgb(234, 68, 68);
+border-radius: 30px;
+margin-left: 7px;
+height: 40px;
+width: 80px;
+border: 0px;
+
+}
+.sign-b1-text
+{
+    text-decoration: none;
+    color: white;
+}
+.login-img1
+{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('cta-bg.jpg') no-repeat 0 0;
+background-size: cover;
+height: 580px;
+}
+.main-cont
+{
+    background-color: white;
+}
+.main-butt
+{
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(227, 40, 40);  
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 220px;
+   
+}
+.any
+{
+    font-weight: lighter;
+    background-color: #f9f9f9;
+    color:#857f7f;
+
+}
+
+.main-butt1
+{
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(227, 40, 40);  
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 120px;
+   
+}
+.db-img
+{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('app-1.jpg') no-repeat 0 0;
+background-size: cover;
+height: 580px;
+}
+.section-head1::after
+{
+    background-color: rgb(243, 68, 68);
+    content: "";
+    display: block;
+    width: 130px;
+    height: 6px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
